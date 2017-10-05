@@ -1,7 +1,7 @@
 $(document).ready(function () {		
 	
 	    // twitter id
-    var user = 'shoogledesigns';
+    var user = 'sasz_de';
           
     // count
     $.getJSON('http://api.twitter.com/1/statuses/user_timeline.json?screen_name=' + user + '&count=3&include_rts=1&callback=?', function(data)      {
